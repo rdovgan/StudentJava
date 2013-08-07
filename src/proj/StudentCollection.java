@@ -9,7 +9,7 @@ public interface StudentCollection {
 	public void changeStudent(String surname, String name, Student student);
 	public double getStudentMark(String surname, String name);
 	public Student getStudent(String surname, String name);
-	public List<Student> getStudentsFromGroup(int group);
-	public List<Student> getSortedBySurname();
-	public List<Student> getSortedByMark();
+	public void getStudentsFromGroup(int group);
+	public void getSortedBySurname();
+	public void getSortedByMark();
 }
